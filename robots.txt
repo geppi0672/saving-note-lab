@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://geppi0672.github.io/saving-note-lab/sitemap.xml
