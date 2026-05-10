@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Console改善ログテンプレート | AIでどこまでできるか研究所</title>
+<!-- SEO -->
+<meta name="description" content="Search ConsoleのCSVを見て、対象URL、クエリ、impressions、clicks、CTR、avg position、改善判断、改善内容、次回確認日を記録するためのテンプレートです。">
+<link rel="canonical" href="https://geppi0672.github.io/saving-note-lab/search-console-improvement-log.html">
+<meta property="og:title" content="Search Console改善ログテンプレート | AIでどこまでできるか研究所">
+<meta property="og:description" content="Search ConsoleのCSVを見て、対象URL、クエリ、impressions、clicks、CTR、avg position、改善判断、改善内容、次回確認日を記録するためのテンプレートです。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://geppi0672.github.io/saving-note-lab/search-console-improvement-log.html">
+<meta name="twitter:card" content="summary">
+
+<!-- /SEO -->
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<article class="static-page">
+<a href="./index.html" class="back-link">&larr; All notes</a>
+<div class="note-label">Improvement Log</div>
+<header class="post-header">
+<h1 class="post-title">Search Console改善ログテンプレート</h1>
+</header>
+<div class="post-body">
+<p class="resource-pending">内容サンプル</p><p>Search ConsoleのCSVを見て、記事改善の判断と記録を残すためのテンプレートです。スターターキットに含める予定のテンプレートの一部を、サンプルとして公開しています。</p><p>外部リンク、購入ボタン、メール登録はありません。Search Console APIは使わず、CSVを見ながら手動で記録する前提です。</p><section class="checklist-group"><h2>改善分類</h2><ul class="checklist-items"><li><span class="check-box" aria-hidden="true"></span><span><strong>タイトル改善:</strong> impressionsが多く、clicksやCTRが弱いときに選ぶ。</span></li><li><span class="check-box" aria-hidden="true"></span><span><strong>内容強化:</strong> avg positionが低く、本文の具体性や見出しが足りないときに選ぶ。</span></li><li><span class="check-box" aria-hidden="true"></span><span><strong>CTA改善:</strong> clicksはあるが、無料チェックリストや次の行動につながりにくいときに選ぶ。</span></li><li><span class="check-box" aria-hidden="true"></span><span><strong>無料導線強化:</strong> free-checklist.htmlや関連ページに表示があり、内部リンク文脈を増やしたいときに選ぶ。</span></li><li><span class="check-box" aria-hidden="true"></span><span><strong>まだ様子見:</strong> impressionsが少ない、または改善直後で判断するデータが足りないときに選ぶ。</span></li></ul></section>
+<section class="checklist-group"><h2>対象URL</h2><p><strong>何を見るか:</strong> 改善したい記事や固定ページのURL。</p><p><strong>どう判断するか:</strong> 同じURLを改善前後で追えるように、slugやファイル名を変えずに記録します。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>対象クエリ</h2><p><strong>何を見るか:</strong> Search Consoleで表示されている検索語。</p><p><strong>どう判断するか:</strong> 記事のtitle、導入文、見出しがその検索語に自然に答えているかを見ます。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>impressions</h2><p><strong>何を見るか:</strong> 検索結果に表示された回数。</p><p><strong>どう判断するか:</strong> 多いのにclicksが少ない場合は、titleやdescriptionの改善候補です。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>clicks</h2><p><strong>何を見るか:</strong> 検索結果からクリックされた回数。</p><p><strong>どう判断するか:</strong> クリックがある記事は、CTAや無料導線を強化する候補になります。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>CTR</h2><p><strong>何を見るか:</strong> 表示回数に対するクリック率。</p><p><strong>どう判断するか:</strong> 表示はあるのにCTRが低い場合、検索結果で伝わる文言を見直します。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>avg position</h2><p><strong>何を見るか:</strong> 平均掲載順位。数値は低いほど上位です。</p><p><strong>どう判断するか:</strong> 順位が低い場合は、本文の具体性、見出し、比較情報の追加を検討します。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>改善判断</h2><p><strong>何を見るか:</strong> 次に何を直すかの分類。</p><p><strong>どう判断するか:</strong> タイトル改善、内容強化、CTA改善、無料導線強化、まだ様子見から選びます。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>改善内容</h2><p><strong>何を見るか:</strong> 実際に変えたこと。</p><p><strong>どう判断するか:</strong> title、meta description、導入文、見出し、CTAなど、後で戻せる粒度で書きます。</p><p class="disclosure-box">記録欄: </p></section>
+<section class="checklist-group"><h2>次回確認日</h2><p><strong>何を見るか:</strong> 改善後に再確認する日。</p><p><strong>どう判断するか:</strong> すぐ判断せず、1〜2週間後のCSVで同じURLとクエリを比べます。</p><p class="disclosure-box">記録欄: </p></section>
+<p class="disclosure-box">このテンプレートは改善判断を記録するためのものです。検索順位、クリック数、収益を保証するものではありません。</p>
+</div>
+</article>
+<footer class="site-footer">
+  <span>AIでどこまでできるか研究所</span>
+  <span><a href="./tools.html">Tools</a></span>
+  <span><a href="./templates.html">Templates</a></span>
+  <span><a href="./disclosure.html">Disclosure</a></span>
+  <span><a href="./privacy.html">Privacy</a></span>
+  <span><a href="./contact.html">Contact</a></span>
+</footer>
+</body>
+</html>
